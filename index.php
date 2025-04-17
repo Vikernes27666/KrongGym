@@ -1,4 +1,4 @@
 
 <?php
-header('location: frontend/login.php');
+header('location: frontend/inicio.php');
 ?>
