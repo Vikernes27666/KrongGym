@@ -54,7 +54,7 @@ ul, ol {
 a,
 a:hover,
 a:focus {
-    color: #333;
+    color: #ffda06;
     text-decoration: none;
     transition: all 0.3s;
 }
@@ -125,6 +125,10 @@ a:focus {
 
 
 
+/* ---------------------------------------------------
+   lado izquierdo
+----------------------------------------------------- */
+
 #sidebar {
     position:fixed;
 	height:100vh!important;
@@ -135,7 +139,7 @@ a:focus {
     width: 260px;
 	overflow:auto;
 	transition:all 0.3s ;
-    background: #FFFFFF;
+    background: #302e2e;
     box-shadow: 0 10px 30px -12px rgb(0 0 0 / 42%), 0 4px 25px 0px rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 0 0 / 20%);
 }
 
@@ -163,12 +167,12 @@ a:focus {
 
 #sidebar .sidebar-header {
     padding:20px;
-	background-color:#ffffff;
+	background-color:#000000;
 	border-bottom:1px solid #eee;
 }
 
 .sidebar-header h3{
-	color:#333;
+	color:#ffda06;
 	font-size:17px;
 	margin:0px;
 	text-transform:none;
@@ -229,7 +233,7 @@ a:focus {
     position: relative;
     margin-right: 10px;
     top: 5px;
-	color: #555555;
+	color: #dfd28a;
     margin-left: 10px;
 }
 
@@ -270,22 +274,30 @@ a:focus {
 }
 
 
+/* ---------------------------------------------------
+   letras del nav
+----------------------------------------------------- */
 
 .navbar{
-    background-color: #0652DD;
-    color: #FFFFFF;
+    background-color: hsl(0, 0%, 0%);
+    color: #ffda06;
 }
 
 .navbar-brand {
-    color: #FFFFFF;
+    color: #ffda06;
 }
 
 .navbar button{
 	background-color:transparent;
 	border:none;
 }
+
+
+/* ---------------------------------------------------
+  ruedita configuracion
+----------------------------------------------------- */
 .navbar button span{
-	color:#fff;
+	color:#ffda06;
 }
 
 #sidebarCollapse{
@@ -313,8 +325,9 @@ a:focus {
     background-color: rgba(0, 0, 0, 0.08);  
  }
 
+ 
 .navbar-nav > li > a {
-    color: #FFFFFF;
+    color: #ffda06;
 }
 
 
@@ -388,6 +401,10 @@ a:focus {
     border-radius: 0px!important;
 }
 
+
+/* ---------------------------------------------------
+   cartas
+----------------------------------------------------- */
 .card {
     display: inline-block;
     position: relative;
@@ -397,7 +414,7 @@ a:focus {
     box-shadow: 0 1px 2px rgb(0 0 0 / 8%);
     border-radius: 6px;
     color: rgba(0,0,0, 0.87);
-    background: #fff;
+    background: white;
 }
 
 .card-stats .card-header {
@@ -405,10 +422,15 @@ a:focus {
     text-align: center;
 }
 
+
+/* ---------------------------------------------------
+   titulo de las cartas
+----------------------------------------------------- */
+
 .card .card-header {
     padding: 15px 20px 0;
     z-index: 3;
-	background-color:#fff!important;
+	background-color:white!important;
 	border-bottom:none;
 }
 
@@ -464,7 +486,7 @@ a:focus {
 .card .card-footer {
     margin: 0 7px 0px;
     padding-top: 10px;
-	background-color:#fff;
+	background-color:#eee;
     border-top: 1px solid #eeeeee;
 }
 

@@ -8,7 +8,7 @@ if(!isset($_SESSION))
 define('dbhost', 'localhost');
 define('dbuser', 'root');
 define('dbpass', '');
-define('dbname', 'gym');
+define('dbname', 'kronggym');
 
 // Connecting database
 try {

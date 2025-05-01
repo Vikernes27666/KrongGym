@@ -45,7 +45,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 1) {
             <!-- Sidebar  -->
             <nav id="sidebar">
                 <div class="sidebar-header">
-                    <h3><img src="../../backend/img/favicon.webp" class="img-fluid" /><span>SMAF GYM</span></h3>
+                    <h3><img src="../../backend/img/promociones.png" class="img-fluid" /><span>KRONG GYM</span></h3>
                 </div>
                 <ul class="list-unstyled components">
                     <li class="active">

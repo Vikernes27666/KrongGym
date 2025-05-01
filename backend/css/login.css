@@ -1,0 +1,79 @@
+
+        * {
+            box-sizing: border-box;
+        }
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Arial', sans-serif;
+            background: url('https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExa3E1bDkycnVreWY1bHBrazF4cjc3eTM2OWNmamJnbXkybzA4Nm1meiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/aR69F5A9tz2kkVYUAz/200.webp') no-repeat center center fixed;
+            background-size: cover;
+        }
+
+        .login-wrapper {
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box-form {
+            background: rgba(0, 0, 0, 0.7);
+            padding: 40px;
+            border-radius: 15px;
+            color: #FFD700;
+            max-width: 400px;
+            width: 90%;
+            box-shadow: 0 0 15px rgba(255, 215, 0, 0.5);
+        }
+
+        .form-head .title {
+            font-size: 28px;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+            color: #FFD700;
+        }
+
+        .form-group {
+            margin-bottom: 20px;
+        }
+
+        .label-text {
+            margin-bottom: 5px;
+            font-size: 14px;
+            color: #FFD700;
+        }
+
+        .form-control {
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #FFD700;
+            border-radius: 8px;
+            background: #000;
+            color: #FFD700;
+        }
+
+        .btn-submit {
+            background-color: #FFD700;
+            color: #000;
+            border: none;
+            width: 100%;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+
+        .btn-submit:hover {
+            background-color: #e0c200;
+        }
+
+        .error-msg {
+            color: red;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 15px;
+        }

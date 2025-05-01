@@ -11,9 +11,7 @@ if (!isset($_SESSION['rol']) || $_SESSION['rol'] != 1) {
     <?php include_once "../templates/header.php" ?>
     <!-- Page Content  -->
     <div id="content">
-        <div class='pre-loader'>
-            <img class='loading-gif' alt='loading' src="https://media.giphy.com/media/TPFdnUyWNNQYMke6gU/giphy.gif" />
-        </div>
+        
         <div class="top-navbar">
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
