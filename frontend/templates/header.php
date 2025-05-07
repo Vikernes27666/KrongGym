@@ -6,7 +6,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
-    <title>SMAF GYM</title>
+    <title>KrongGym</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="../../backend/css/bootstrap.min.css">
     <!----css3---->
@@ -25,7 +25,7 @@
     <!--google material icon-->
     <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
-    <link rel="icon" type="image/png" href="../../backend/img/favicon.webp" />
+    <link rel="icon" type="image/png" href="../../backend/img/promociones.png" />
 
     <style>
         /* Estilos personalizados para los botones de exportación */
